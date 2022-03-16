@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    height: 60px;
+    background-color: rgb(57, 59, 61);
+    align-items: center;
+    color: rgb(202, 202, 202);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    width: 100%;
+}
+
+.middle-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(92, 93, 94);
+}
+
+.main {
+    background-image: url(img/Jakobstad\ \(2\).PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.middle-text h1, h3{
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    background-color: rgba(255, 156, 8, 0.589);
+    border-radius: 2rem;
+}
+
+.second-page {
+    background-color: rgb(228, 196, 196);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     font-family:'Times New Roman', Times, serif;
+     font-size: 1.5rem;
+     gap: 1rem;
+}
+
+hr {
+    width: 100px;
+    height: 5px;
+    background-color: #7e7d7d;
+    border: none;
+    border-radius: 2rem;
+}
+
+.third-page {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(134, 131, 134);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.fourth-page {
+    background-color: rgb(130, 144, 148);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navbar h2:hover {
+   transform: scale(1.05);
+    visibility: visible;
+    position: relative;
+    color: rgb(35, 126, 245);
+    cursor: pointer;
+}
+
+
+::-webkit-scrollbar {
+  width: 12.5px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #7e7d7d;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: rgb(87, 171, 240);
+  border-radius: 5px;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.about-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    color: rgb(95, 92, 92);
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 800px !important;
+    height: 300px !important;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.pic1 {
+    width: 300px;
+    height: 350px;
+}
