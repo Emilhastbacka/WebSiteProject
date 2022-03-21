@@ -7,16 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JOO</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+        integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
 </head>
 
 <body>
     <div class="container">
         <div class="first-page">
             <div class="navbar">
-                <h2 onclick="scrollToHome()">HOME</h2>
-                <h2 id="demo" onclick="scrollToAbout()">ABOUT</h2>
-                <h2 onclick="scrollToPortfolio()">PORTFOLIO</h2>
-                <h2 onclick="scrollToContact()">CONTACT</h2>
+
+
+
+
+                <div class="openMenu"><i class="fa fa-bars"></i></div>
+
+                <ul class="mainMenu">
+
+                    <div class="closeMenu"><i class="fa fa-times"></i></div>
+                    <h2 onclick="scrollToHome()">Hem</h2>
+                    <h2 id="demo" onclick="scrollToAbout()">Om oss</h2>
+                    <h2 onclick="scrollToPortfolio()">Galleri</h2>
+                    <h2 onclick="scrollToContact()">Kontakt</h2>
+
+                </ul>
+
             </div>
             <div class="main">
                 <div class="middle-text">
@@ -29,7 +43,7 @@
         </div>
         <div class="second-page">
             <div class="text">
-                <h1>About Me</h1>
+                <h1>Om oss</h1>
                 <hr>
             </div>
             <div class="picture">
@@ -43,25 +57,27 @@
                         Kolla här vilka som är lediga
                         eller ring 050 5598970
                     </p>
+                    <p>Vi hyr också ut vinter förvaring för husvagnar, husbilar, <br> person bilar och Hobbybilar
+                    </p>
                 </div>
             </div>
 
         </div>
         <div class="third-page">
             <div class="text">
-                <h1>Portfolio</h1>
+                <h1>Galleri</h1>
                 <hr>
             </div>
             <div class="pictures">
                 <img src="img/Bilder1.png" alt="">
-                <img src="img/bilder2.png" alt="">
+                <img class="second-pic" src="img/bilder8.png" alt="">
                 <img src="img/bilder3.png" alt="">
                 <img src="img/bilder4.png" alt="">
             </div>
             <div class="pictures">
                 <img src="img/bilder5.png" alt="">
                 <img src="img/bilder7.png" alt="">
-                <img src="img/bilder8.png" alt="">
+                <img src="img/bilder10.png" alt="">
                 <img src="img/bilder9.png" alt="">
             </div>
 
@@ -69,7 +85,7 @@
         </div>
         <div class="fourth-page">
             <div class="text">
-                <h1>Contact Me</h1>
+                <h1>Kontakta oss</h1>
                 <hr>
             </div>
             <div class="contact-info">

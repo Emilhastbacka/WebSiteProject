@@ -152,8 +152,8 @@ hr {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    width: 800px !important;
-    height: 300px !important;
+    width: 800px;
+    height: 300px;
 }
 
 .contact-info {
@@ -169,4 +169,64 @@ hr {
 .pic1 {
     width: 300px;
     height: 350px;
+}
+.navbar .mainMenu {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+.navbar .mainMenu li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.navbar .mainMenu li a:hover {
+    background: rgb(255,94,0);
+}
+.navbar .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+.navbar .mainMenu .closeMenu , .icons i {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+@media(max-width: 800px){
+    .navbar .mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+         background-color: rgb(57, 59, 61);
+        transition: top 1s ease;
+        display: none;
+        color: rgb(202, 202, 202);
+        
+    }
+    .navbar .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+
+    }
+    .navbar .openMenu {
+        display: block;
+    }
+.navbar .mainMenu li a:hover {
+        background: none;
+        color: rgb(255, 123, 0);
+        font-size: 1.6rem;
+    }
 }
