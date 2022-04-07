@@ -76,7 +76,8 @@
      align-items: center;
      font-family:'Times New Roman', Times, serif;
      font-size: 1.5rem;
-     gap: 1rem;
+     min-height: 80px;
+     margin-top: 60px;
 }
 
 hr {
@@ -94,7 +95,7 @@ hr {
     flex-direction: column;
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    gap: 1rem;
     align-items: center;
 }
 
@@ -138,7 +139,7 @@ hr {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    margin-top: 4rem;
+    margin-top: 1rem;
 }
 
 .about-text {
@@ -153,7 +154,6 @@ hr {
     color: rgb(10, 20, 20);
     max-width: 700px;
 }
-
 .pictures {
     display: flex;
     justify-content: center;
@@ -261,10 +261,11 @@ hr {
     }
     .picture {
         flex-direction: column;
+        max-height: 60%;
     }
     .about-text{
         font-size: 1rem;
-        height: 50%;
+        height: 100%;
         margin: 0rem 0.5rem;
     }
 }
