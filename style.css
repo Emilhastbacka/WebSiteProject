@@ -1,4 +1,5 @@
 * {
+    font-family: sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -16,6 +17,7 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: fixed;
     width: 100%;
+    overflow: hidden;
 }
 
 .middle-text {
@@ -25,7 +27,7 @@
     flex-direction: column;
     font-size: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(92, 93, 94);
+    color: rgb(0, 0, 0);
 }
 
 .main {
@@ -91,6 +93,7 @@ hr {
     display: flex;
     justify-content: center;
     gap: 3rem;
+    align-items: center;
 }
 
 .fourth-page {
@@ -150,10 +153,8 @@ hr {
 .pictures {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 2rem;
-    width: 800px;
-    height: 300px;
+    width: 70%;
 }
 
 .contact-info {

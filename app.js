@@ -4,7 +4,8 @@ function scrollToHome() {
         top: 0 * window.innerHeight / 100,
         left: 0,
         behavior: 'smooth'
-    });
+    })
+    close();
 }
 
 function scrollToAbout() {
@@ -14,6 +15,7 @@ function scrollToAbout() {
         left: 0,
         behavior: 'smooth'
     });
+    close()
 }
 
 function scrollToPortfolio() {
@@ -23,6 +25,7 @@ function scrollToPortfolio() {
         left: 0,
         behavior: 'smooth'
     });
+    close()
 }
 
 function scrollToContact() {
@@ -32,6 +35,7 @@ function scrollToContact() {
         left: 0,
         behavior: 'smooth'
     });
+    close()
 }
 const mainMenu = document.querySelector('.mainMenu');
 const closeMenu = document.querySelector('.closeMenu');
